@@ -1,0 +1,6 @@
+{
+    cmdlines = {
+        "xmake l /home/ricocosoul/.vscode/extensions/tboox.xmake-vscode-1.6.4/assets/explorer.lua",
+        "xmake l /home/ricocosoul/.vscode/extensions/tboox.xmake-vscode-1.6.4/assets/config.lua"
+    }
+}

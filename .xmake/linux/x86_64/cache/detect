@@ -1,0 +1,50 @@
+{
+    find_program_cross_arch_x86_64_plat_linux_checktoolcxx = {
+        gcc = "/usr/bin/gcc"
+    },
+    find_programver = {
+        ["/usr/bin/gcc"] = "11.2.0"
+    },
+    ["lib.detect.has_flags"] = {
+        ["linux_x86_64_/usr/bin/gcc_11.2.0_cxx_cxflags__-fPIC"] = true
+    },
+    find_program = {
+        ["/usr/bin/gcc"] = "/usr/bin/gcc"
+    },
+    ["detect.tools.gcc.has_cflags"] = {
+        ["/usr/bin/gcc_11.2.0"] = {
+            ["-print-multi-os-directory"] = true,
+            ["--version"] = true,
+            ["-time"] = true,
+            ["-print-sysroot-headers-suffix"] = true,
+            ["-save-temps"] = true,
+            ["-print-libgcc-file-name"] = true,
+            ["-v"] = true,
+            ["-dumpversion"] = true,
+            ["-print-multi-directory"] = true,
+            ["-print-sysroot"] = true,
+            ["-B"] = true,
+            ["-no-canonical-prefixes"] = true,
+            ["-pass-exit-codes"] = true,
+            ["-print-multiarch"] = true,
+            ["-pie"] = true,
+            ["-S"] = true,
+            ["--help"] = true,
+            ["-c"] = true,
+            ["--param"] = true,
+            ["-shared"] = true,
+            ["-dumpmachine"] = true,
+            ["-Xpreprocessor"] = true,
+            ["-print-multi-lib"] = true,
+            ["-print-search-dirs"] = true,
+            ["-Xlinker"] = true,
+            ["-x"] = true,
+            ["-pipe"] = true,
+            ["-E"] = true,
+            ["-o"] = true,
+            ["--target-help"] = true,
+            ["-dumpspecs"] = true,
+            ["-Xassembler"] = true
+        }
+    }
+}
