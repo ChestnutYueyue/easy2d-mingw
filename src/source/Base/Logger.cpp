@@ -14,27 +14,29 @@ std::wfstream s_wconsoleInput, s_wconsoleOutput, s_wconsoleError;
 
 namespace {
 void Output(std::wostream& os, const wchar_t* prompt, const wchar_t* format, va_list args)
-{
-    if (s_bEnable) {
-        static wchar_t tempBuffer[1024 * 3 + 1];
+	{
+		if (s_bEnable)
+		{
+			static wchar_t tempBuffer[1024 * 3 + 1];
 
-        std::wstringstream ss;
+			std::wstringstream ss;
 
-        if (prompt)
-            ss << prompt;
+			if (prompt)
+				ss << prompt;
 
-        if (format) {
-            const auto len = ::_vscwprintf(format, args) + 1;
-            ::_vsnwprintf_s(tempBuffer, len, len, format, args);
+			if (format)
+			{
+				const auto len = ::_vscwprintf(format, args) + 1;
+				::_vsnwprintf_s(tempBuffer, len, len, format, args);
 
-            ss << tempBuffer << std::endl;
-        }
+				ss << tempBuffer << std::endl;
+			}
 
-        std::wstring output = ss.str();
-        os << output << std::flush;
-        ::OutputDebugStringW(output.c_str());
-    }
-}
+			std::wstring output = ss.str();
+			os << output << std::flush;
+			::OutputDebugStringW(output.c_str());
+		}
+	}
 
 void RedirectStdIO()
 {
@@ -98,12 +100,12 @@ HWND allocated_console = nullptr;
 
 HWND AllocateConsole()
 {
-    // AllocConsole为调用进程分配一个新的控制台。
-    // 如果该函数成功，则返回值为非零值。
-    // GetConsoleWindow检索与调用进程关联的控制台所使用的窗口句柄。
-    // 返回值是与调用进程关联的控制台所使用的窗口的句柄; 如果没有此类关联的控制台，则为 NULL 。
-    if (AllocConsole() && (allocated_console = GetConsoleWindow())) {
-        RedirectStdIO();
+    if (::AllocConsole()) {
+        allocated_console = ::GetConsoleWindow();
+
+        if (allocated_console) {
+            RedirectStdIO();
+        }
     }
     return allocated_console;
 }
@@ -112,7 +114,7 @@ void FreeAllocatedConsole()
 {
     if (allocated_console) {
         ResetStdIO();
-        FreeConsole();
+        ::FreeConsole();
         allocated_console = nullptr;
     }
 }
@@ -134,55 +136,57 @@ void easy2d::Logger::disable()
 }
 void easy2d::Logger::messageln(String format, ...)
 {
-    va_list args = nullptr;
-    va_start(args, format);
+	va_list args = nullptr;
+	va_start(args, format);
 
-    Output(std::wcout, L" ", format.c_str(), args);
+	Output(std::wcout, L" ", format.c_str(), args);
 
-    va_end(args);
+	va_end(args);
 }
 
 void easy2d::Logger::warningln(String format, ...)
 {
-    va_list args = nullptr;
-    va_start(args, format);
+	va_list args = nullptr;
+	va_start(args, format);
 
-    Output(std::wcout, L"Warning: ", format.c_str(), args);
+	Output(std::wcout, L"Warning: ", format.c_str(), args);
 
-    va_end(args);
+	va_end(args);
 }
 
 void easy2d::Logger::errorln(String format, ...)
 {
-    va_list args = nullptr;
-    va_start(args, format);
+	va_list args = nullptr;
+	va_start(args, format);
 
-    Output(std::wcout, L"Error: ", format.c_str(), args);
+	Output(std::wcout, L"Error: ", format.c_str(), args);
 
-    va_end(args);
+	va_end(args);
 }
 
 void easy2d::Logger::showConsole(bool show)
 {
-    HWND currConsole = GetConsoleWindow();
+    HWND currConsole = ::GetConsoleWindow();
     if (show) {
         if (currConsole) {
-            ShowWindow(currConsole, SW_SHOW);
+            ::ShowWindow(currConsole, SW_SHOW);
         } else {
-            HWND console = AllocateConsole();
+            HWND console = ::AllocateConsole();
             if (!console) {
                 E2D_WARNING(L"AllocConsole failed");
             } else {
                 // disable the close button of console
-                HMENU hmenu = GetSystemMenu(console, FALSE);
-                RemoveMenu(hmenu, SC_CLOSE, MF_BYCOMMAND);
+                HMENU hmenu = ::GetSystemMenu(console, FALSE);
+                ::RemoveMenu(hmenu, SC_CLOSE, MF_BYCOMMAND);
             }
         }
     } else {
-        if (currConsole && currConsole == GetAllocatedConsole()) {
-            FreeAllocatedConsole();
-        } else {
-            ShowWindow(currConsole, SW_HIDE);
+        if (currConsole) {
+            if (currConsole == GetAllocatedConsole()) {
+                FreeAllocatedConsole();
+            } else {
+                ::ShowWindow(currConsole, SW_HIDE);
+            }
         }
     }
 }
