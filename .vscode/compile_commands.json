@@ -1,0 +1,316 @@
+[
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/Action.cpp.o", "src/source/Action/Action.cpp"],
+  "file": "src/source/Action/Action.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/Animate.cpp.o", "src/source/Action/Animate.cpp"],
+  "file": "src/source/Action/Animate.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/Animation.cpp.o", "src/source/Action/Animation.cpp"],
+  "file": "src/source/Action/Animation.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/CallFunc.cpp.o", "src/source/Action/CallFunc.cpp"],
+  "file": "src/source/Action/CallFunc.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/Delay.cpp.o", "src/source/Action/Delay.cpp"],
+  "file": "src/source/Action/Delay.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/FiniteTimeAction.cpp.o", "src/source/Action/FiniteTimeAction.cpp"],
+  "file": "src/source/Action/FiniteTimeAction.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/JumpBy.cpp.o", "src/source/Action/JumpBy.cpp"],
+  "file": "src/source/Action/JumpBy.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/JumpTo.cpp.o", "src/source/Action/JumpTo.cpp"],
+  "file": "src/source/Action/JumpTo.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/Loop.cpp.o", "src/source/Action/Loop.cpp"],
+  "file": "src/source/Action/Loop.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/MoveBy.cpp.o", "src/source/Action/MoveBy.cpp"],
+  "file": "src/source/Action/MoveBy.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/MoveTo.cpp.o", "src/source/Action/MoveTo.cpp"],
+  "file": "src/source/Action/MoveTo.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/OpacityBy.cpp.o", "src/source/Action/OpacityBy.cpp"],
+  "file": "src/source/Action/OpacityBy.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/OpacityTo.cpp.o", "src/source/Action/OpacityTo.cpp"],
+  "file": "src/source/Action/OpacityTo.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/RotateBy.cpp.o", "src/source/Action/RotateBy.cpp"],
+  "file": "src/source/Action/RotateBy.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/RotateTo.cpp.o", "src/source/Action/RotateTo.cpp"],
+  "file": "src/source/Action/RotateTo.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/ScaleBy.cpp.o", "src/source/Action/ScaleBy.cpp"],
+  "file": "src/source/Action/ScaleBy.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/ScaleTo.cpp.o", "src/source/Action/ScaleTo.cpp"],
+  "file": "src/source/Action/ScaleTo.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/Sequence.cpp.o", "src/source/Action/Sequence.cpp"],
+  "file": "src/source/Action/Sequence.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Action/Spawn.cpp.o", "src/source/Action/Spawn.cpp"],
+  "file": "src/source/Action/Spawn.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Base/GC.cpp.o", "src/source/Base/GC.cpp"],
+  "file": "src/source/Base/GC.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Base/Game.cpp.o", "src/source/Base/Game.cpp"],
+  "file": "src/source/Base/Game.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Base/Input.cpp.o", "src/source/Base/Input.cpp"],
+  "file": "src/source/Base/Input.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Base/Logger.cpp.o", "src/source/Base/Logger.cpp"],
+  "file": "src/source/Base/Logger.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Base/Renderer.cpp.o", "src/source/Base/Renderer.cpp"],
+  "file": "src/source/Base/Renderer.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Base/Time.cpp.o", "src/source/Base/Time.cpp"],
+  "file": "src/source/Base/Time.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Base/Window.cpp.o", "src/source/Base/Window.cpp"],
+  "file": "src/source/Base/Window.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Common/Color.cpp.o", "src/source/Common/Color.cpp"],
+  "file": "src/source/Common/Color.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Common/Event.cpp.o", "src/source/Common/Event.cpp"],
+  "file": "src/source/Common/Event.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Common/Font.cpp.o", "src/source/Common/Font.cpp"],
+  "file": "src/source/Common/Font.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Common/Image.cpp.o", "src/source/Common/Image.cpp"],
+  "file": "src/source/Common/Image.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Common/Listener.cpp.o", "src/source/Common/Listener.cpp"],
+  "file": "src/source/Common/Listener.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Common/Object.cpp.o", "src/source/Common/Object.cpp"],
+  "file": "src/source/Common/Object.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Common/Resource.cpp.o", "src/source/Common/Resource.cpp"],
+  "file": "src/source/Common/Resource.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Common/String.cpp.o", "src/source/Common/String.cpp"],
+  "file": "src/source/Common/String.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Manager/ActionManager.cpp.o", "src/source/Manager/ActionManager.cpp"],
+  "file": "src/source/Manager/ActionManager.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Manager/SceneManager.cpp.o", "src/source/Manager/SceneManager.cpp"],
+  "file": "src/source/Manager/SceneManager.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Math/Matrix.cpp.o", "src/source/Math/Matrix.cpp"],
+  "file": "src/source/Math/Matrix.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Math/Point.cpp.o", "src/source/Math/Point.cpp"],
+  "file": "src/source/Math/Point.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Math/Rect.cpp.o", "src/source/Math/Rect.cpp"],
+  "file": "src/source/Math/Rect.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Math/Size.cpp.o", "src/source/Math/Size.cpp"],
+  "file": "src/source/Math/Size.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Button.cpp.o", "src/source/Node/Button.cpp"],
+  "file": "src/source/Node/Button.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Menu.cpp.o", "src/source/Node/Menu.cpp"],
+  "file": "src/source/Node/Menu.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Node.cpp.o", "src/source/Node/Node.cpp"],
+  "file": "src/source/Node/Node.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Scene.cpp.o", "src/source/Node/Scene.cpp"],
+  "file": "src/source/Node/Scene.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Shape/CircleShape.cpp.o", "src/source/Node/Shape/CircleShape.cpp"],
+  "file": "src/source/Node/Shape/CircleShape.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Shape/EllipseShape.cpp.o", "src/source/Node/Shape/EllipseShape.cpp"],
+  "file": "src/source/Node/Shape/EllipseShape.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Shape/RectShape.cpp.o", "src/source/Node/Shape/RectShape.cpp"],
+  "file": "src/source/Node/Shape/RectShape.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Shape/RoundRectShape.cpp.o", "src/source/Node/Shape/RoundRectShape.cpp"],
+  "file": "src/source/Node/Shape/RoundRectShape.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Shape/Shape.cpp.o", "src/source/Node/Shape/Shape.cpp"],
+  "file": "src/source/Node/Shape/Shape.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Sprite.cpp.o", "src/source/Node/Sprite.cpp"],
+  "file": "src/source/Node/Sprite.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/Text.cpp.o", "src/source/Node/Text.cpp"],
+  "file": "src/source/Node/Text.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Node/ToggleButton.cpp.o", "src/source/Node/ToggleButton.cpp"],
+  "file": "src/source/Node/ToggleButton.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Tool/Data.cpp.o", "src/source/Tool/Data.cpp"],
+  "file": "src/source/Tool/Data.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Tool/Music.cpp.o", "src/source/Tool/Music.cpp"],
+  "file": "src/source/Tool/Music.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Tool/MusicPlayer.cpp.o", "src/source/Tool/MusicPlayer.cpp"],
+  "file": "src/source/Tool/MusicPlayer.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Tool/Path.cpp.o", "src/source/Tool/Path.cpp"],
+  "file": "src/source/Tool/Path.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Tool/Random.cpp.o", "src/source/Tool/Random.cpp"],
+  "file": "src/source/Tool/Random.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Tool/Timer.cpp.o", "src/source/Tool/Timer.cpp"],
+  "file": "src/source/Tool/Timer.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Transition/BoxTransition.cpp.o", "src/source/Transition/BoxTransition.cpp"],
+  "file": "src/source/Transition/BoxTransition.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Transition/EmergeTransition.cpp.o", "src/source/Transition/EmergeTransition.cpp"],
+  "file": "src/source/Transition/EmergeTransition.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Transition/FadeTransition.cpp.o", "src/source/Transition/FadeTransition.cpp"],
+  "file": "src/source/Transition/FadeTransition.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Transition/MoveTransition.cpp.o", "src/source/Transition/MoveTransition.cpp"],
+  "file": "src/source/Transition/MoveTransition.cpp"
+},
+{
+  "directory": "/home/ricocosoul/code/easy2d-mingw-xmake",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Isrc/include", "-o", "build/.objs/easy2d/linux/x86_64/src/source/Transition/Transition.cpp.o", "src/source/Transition/Transition.cpp"],
+  "file": "src/source/Transition/Transition.cpp"
+}]

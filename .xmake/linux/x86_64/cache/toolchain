@@ -1,0 +1,12 @@
+{
+    tool_target_easy2d_linux_x86_64_cxx = {
+        toolname = "gcc",
+        toolchain_info = {
+            name = "cross",
+            cachekey = "cross_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64"
+        },
+        program = "/usr/bin/gcc"
+    }
+}
