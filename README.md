@@ -25,9 +25,9 @@ Easy2D 是一门免费开源的轻量级游戏开发框架，由 RiCoCoSoul + Be
     - [ ] ~~Linux~~
     - [ ] ~~OSX~~
 - 构建工具
-    - [XMake仓库](https://gitee.com/ricocosoul_admin/easy2d)
+    - [XMake仓库](https://github.com/ChestnutYueyue/easy2d-mingw-xmake/)
       - [x] [XMake](https://xmake.io/#/zh-cn/)
-    - [CMake仓库](https://gitee.com/ricocosoul_admin/easy2d/tree/CMake/)
+    - [CMake仓库](https://github.com/ChestnutYueyue/easy2d-mingw-xmake/tree/cmake)
       - [x] [CMake](https://cmake.org/)
 - 代码编辑器
     - [x] [vscode](https://code.visualstudio.com/)
