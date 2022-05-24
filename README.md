@@ -54,7 +54,7 @@ Easy2D 是一门免费开源的轻量级游戏开发框架，由 RiCoCoSoul + Be
 - 远程包管理
 ~~~html
     <!-- 远程包加载 -->
-    add_repositories("easy2d https://gitee.com/ricocosoul_admin/easy2d-repo")
+    add_repositories("easy2d https://github.com/ChestnutYueyue/easy2d-repo.git")
     add_requires("easy2d")
     <!-- 项目 -->
     target("demo")
