@@ -17,6 +17,7 @@ Easy2D 是一门免费开源的轻量级游戏开发框架，由 RiCoCoSoul + Be
 
 期望在所有主流电脑平台（OSX、Windows 和 Linux）都能支持运行。
 
+> 提示CMake没有提供合并库的工具需要借助python等其他脚本方式请先安装好python环境版本为3.8.10
 
 ## 环境
 - 平台
@@ -31,44 +32,41 @@ Easy2D 是一门免费开源的轻量级游戏开发框架，由 RiCoCoSoul + Be
 - 代码编辑器
     - [x] [vscode](https://code.visualstudio.com/)
     - [x] [sublime](https://www.sublimetext.com/)
-- 编译器 (支持i386和X86_64编译)
+- 编译器 (仅X64)
     - [x] [TDM GCC](https://jmeubank.github.io/tdm-gcc/download/)
     - [x] [MinGW GCC](https://github.com/brechtsanders/winlibs_mingw/releases)
-    
 ## 安装
 
-- 自定义编译
-~~~html
-    1、终端指定编译器
-    xmake g --mingw=X:/MinGW 或者 X:/TDM-GCC
 
-    2、切换编译器
-    xmake f -p mingw --mingw=X:/MinGW -cvD 或者 X:/TDM-GCC
-    如果全局指定可以使用xmake f --toolchain=mingw
+~~~make
 
-    3、xmake
+    #1、安装
 
-    4、done
+    #2、修改MinGW和CMake
+
+    #3、在windows配置
+
+    #4、修改MinGW和CMake的bin环境变量
+
+    #5、修改MinGW bin目录下的mingw32-make.exe为make.exe
+
+    #6、创建编译文件所在的build目录（可以是其他名称）
+
+    #7、指定CMake产生Makefiles文件（说明，后面是两个点号指定cmake要编译上一层目录中的源码文件）：
+
+        cmake -G "MinGW Makefiles" .
+    
+    #8、make
+
+    #9、cmake会调用pyhon脚本生成库文件，到项目当前目录得bin文件夹中
+
+    #10、从项目当前目录得bin文件夹复制到你的项目中请愉快的享用！
+
 ~~~
 
-- 远程包管理
-~~~html
-    <!-- 远程包加载 -->
-    add_repositories("easy2d https://gitee.com/ricocosoul_admin/easy2d-repo")
-    add_requires("easy2d")
-    <!-- 项目 -->
-    target("demo")
-        <!-- 编译模式 -->
-        set_kind("binary")
-        <!-- 添加项目源文件 -->
-        add_files("src/main.cpp")
-        <!-- 添加包 -->
-        add_packages("easy2d")
-~~~
 
-  
 ## 支持
-- [XMake](https://xmake.io/#/zh-cn/)
+- [CMake](https://cmake.org/)
 - [Easy2D](https://easy2d.cn/)
 ## 许可
 * [MIT License](./LICENSE)

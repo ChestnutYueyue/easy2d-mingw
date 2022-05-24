@@ -30,7 +30,7 @@ bool easy2d::Window::__init(const String& title, int nWidth, int nHeight)
 	// 计算窗口大小
 	DWORD dwStyle = WS_OVERLAPPEDWINDOW &~ WS_MAXIMIZEBOX &~ WS_THICKFRAME;
 	RECT wr = { 0, 0, static_cast<LONG>(nWidth), static_cast<LONG>(nHeight) };
-	::AdjustWindowRectEx(&wr, dwStyle, FALSE, DWORD(0));
+	::AdjustWindowRectEx(&wr, dwStyle, FALSE, NULL);
 	// 获取新的宽高
 	nWidth = static_cast<int>(wr.right - wr.left);
 	nHeight = static_cast<int>(wr.bottom - wr.top);
@@ -41,7 +41,7 @@ bool easy2d::Window::__init(const String& title, int nWidth, int nHeight)
 
 	// 创建窗口
 	s_HWnd = ::CreateWindowEx(
-		DWORD(NULL),
+		NULL,
 		L"Easy2DApp",
 		title.c_str(),
 		dwStyle,
@@ -174,7 +174,7 @@ void easy2d::Window::setSize(int width, int height)
 	// 计算窗口大小
 	DWORD dwStyle = WS_OVERLAPPEDWINDOW &~ WS_MAXIMIZEBOX &~ WS_THICKFRAME;
 	RECT wr = { 0, 0, static_cast<LONG>(width), static_cast<LONG>(height) };
-	::AdjustWindowRectEx(&wr, dwStyle, FALSE, DWORD(NULL));
+	::AdjustWindowRectEx(&wr, dwStyle, FALSE, NULL);
 	// 获取新的宽高
 	width = static_cast<int>(wr.right - wr.left);
 	height = static_cast<int>(wr.bottom - wr.top);

@@ -47,7 +47,9 @@ void easy2d::Matrix32::identity()
 
 easy2d::Vector2 easy2d::Matrix32::transform(const Vector2& v) const
 {
-    return Vector2(v.x * _11 + v.y * _21 + _31, v.x * _12 + v.y * _22 + _32);
+    return Vector2(
+        v.x * _11 + v.y * _21 + _31,
+        v.x * _12 + v.y * _22 + _32);
 }
 
 easy2d::Rect easy2d::Matrix32::transform(const Rect& rect) const
@@ -98,31 +100,35 @@ D2D1::Matrix3x2F const& easy2d::Matrix32::toD2DMatrix() const
 
 easy2d::Matrix32 easy2d::Matrix32::translation(float x, float y)
 {
-
-    return Matrix32(1.f, 0.f, 0.f, 1.f, x, y);
+    Matrix32 tmp = Matrix32(1.f, 0.f, 0.f, 1.f, x, y);
+    return tmp;
 }
 
 easy2d::Matrix32 easy2d::Matrix32::scaling(float x, float y, const Point& center)
 {
-    return Matrix32(x, 0.f, 0.f, y, center.x - x * center.x, center.y - y * center.y);
+    Matrix32 tmp =  Matrix32(x, 0.f, 0.f, y, center.x - x * center.x, center.y - y * center.y);
+    return tmp;
 }
 
 easy2d::Matrix32 easy2d::Matrix32::rotation(float angle, const Point& center)
 {
     float s = math::Sin(angle);
     float c = math::Cos(angle);
-    return Matrix32(c, s, -s, c, center.x * (1 - c) + center.y * s, center.y * (1 - c) - center.x * s);
+    Matrix32 tmp =  Matrix32(c, s, -s, c, center.x * (1 - c) + center.y * s, center.y * (1 - c) - center.x * s);
+    return tmp;
 }
 
 easy2d::Matrix32 easy2d::Matrix32::skewing(float angle_x, float angle_y, const Point& center)
 {
     float tx = math::Tan(angle_x);
     float ty = math::Tan(angle_y);
-    return Matrix32(1.f, -ty, -tx, 1.f, center.y * tx, center.x * ty);
+    Matrix32 tmp =  Matrix32(1.f, -ty, -tx, 1.f, center.y * tx, center.x * ty);
+    return tmp;
 }
 
 easy2d::Matrix32 easy2d::Matrix32::invert(Matrix32 const& matrix)
 {
     float det = 1.f / matrix.determinant();
-    return Matrix32(det * matrix._22, -det * matrix._12, -det * matrix._21, det * matrix._11, det * (matrix._21 * matrix._32 - matrix._22 * matrix._31), det * (matrix._12 * matrix._31 - matrix._11 * matrix._32));
+    Matrix32 tmp =  Matrix32(det * matrix._22, -det * matrix._12, -det * matrix._21, det * matrix._11, det * (matrix._21 * matrix._32 - matrix._22 * matrix._31), det * (matrix._12 * matrix._31 - matrix._11 * matrix._32));
+    return tmp;
 }
