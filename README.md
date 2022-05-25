@@ -13,7 +13,7 @@
 
 </div>
 
-Easy2D 是一门免费开源的轻量级游戏开发框架，由 RiCoCoSoul + Beanflame 主导移植开发工作。
+Easy2D 是一门免费开源的轻量级游戏开发框架，由 ChestnutYueyue + Beanflame 主导移植开发工作。
 
 期望在所有主流电脑平台（OSX、Windows 和 Linux）都能支持运行。
 
